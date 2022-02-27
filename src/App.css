@@ -1,3 +1,4 @@
+/*
 .App {
   text-align: center;
 }
@@ -14,14 +15,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #52ff86;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
@@ -35,4 +36,121 @@
   to {
     transform: rotate(360deg);
   }
+}
+*/
+body {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.split {
+  display: inline;
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 10;
+  overflow: scroll;
+  padding-top: 20px;
+}
+
+.left {
+  padding: 0px;
+  padding-left: 0px;
+  left: 0;
+  background-color: #9ba1a6;
+}
+
+.right {
+  background-image: url("queue3.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: fixed;
+  padding: 0px;
+  padding-right: 0px;
+  right: 0;
+  background-color: #bdd8df;
+}
+
+.centeredLeft {
+  position: absolute;
+  text-align: center; 
+   
+}
+
+.centeredLeft h1 {
+  font-size: 250%;
+
+}
+
+
+
+.centeredLeft input {
+  width:  70%;
+  height: 300%;
+}
+
+.centeredLeft h3 {
+  font-size: 100%;
+}
+
+.centeredRight {
+  position: absolute;
+
+  text-align: center;  
+}
+
+
+
+.recipeTitle {
+  position: fixed;
+  text-align: center;
+  padding-left: 19%;
+  font-size: 150%;
+}
+
+body {
+    height:300vh;
+}
+
+
+.about {
+
+font-size: 100%;
+padding-left:5%;
+padding-right:5%;
+}
+
+.right .bottom {
+  width:45%;
+  border-radius: 100%;
+  position: fixed;
+  bottom:0;
+}
+
+.right .get {
+  width: 35%;
+  border-radius: 50%;
+  padding-right:10%;
+  top:0;
+}
+
+.left img {
+  width:8%;
+  border-radius: 40%;
+  position: fixed;
+  padding-left: -20px;
+}
+
+.chicken {
+  padding-right: 5%;
+  padding-left: 5%;
+  height: 300%;
+  font-size: 100%;
+  bottom:50;
+}
+
+.chicken img {
+  width: 50%;
+  height: 50%;
 }
